@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lab 5</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Log In</legend>
+        <label for="username"><br>Enter Your Username: </label>
+        <input name="username" autofocus type="text" placeholder="Username" autocomplete="off" required/>
+        <label for="password"><br> Enter Your Password: </label>
+        <input name="password" type="password" placeholder="Password" autocomplete="on" required/>
+        <label for="gender"><br>Select Gender: <br></label>
+        Male
+        <input name="gender" type="radio">
+        Female
+        <input name="gender" type="radio">
+        <label for="country"><br>Choose your Country:</label>
+        <select name="country">
+            <option value="sa">Kingdom Of Saudi Arabia</option>
+            <option value="bh">Bahrain</option>
+            <option value="oa">Oman</option>
+            <option value="ua">United Arabic Emirates</option>
+            <option value="qa">Qatar</option>
+            <option value="ku">Kuawit</option>
+            <option value="li">Libya</option>
+        </select>
+        <label for="checkbox"> <br>Select Course(s): <br>
+           Object Oriented Programming (Java) <input type="checkbox"/>
+           <br>Language Theory and Finite Automata <input type="checkbox" name="checkbox"/>
+           <br> 67 <input type="checkbox" name="checkbox"/>
+        </label>
+        <br>
+        <input type="submit"/>
+
+    </fieldset>
+</body>
+</html>
